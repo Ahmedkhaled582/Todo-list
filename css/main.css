@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #374151;
+}
+input , button , .btn{
+    border: none;
+    appearance: none;
+    outline: none;
+    background: none;
+}
+.tasks{
+    padding: 15px 0;
+}
+.tasks h1{
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #6b7280;
+}
+.type{
+    width: 600px;
+    background-color:#1f2937 ;
+    border-radius: 1rem;
+    padding: 1rem 0;
+    color: #ffffff;
+}
+.type::placeholder{
+    color: #6b7280;
+}
+#submit{
+    padding: 8px 5px;
+    color: #ec4899;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+#submit:hover{
+    opacity: .8 ;
+}
+.list{
+    margin-top: 15px;
+}
+.list h2{
+    color: #6b7280;
+
+}
+#Tasks{
+    margin-top: 10px;
+
+}
+.task{
+    display: flex;
+    background-color: #111827;
+    justify-content: space-between;
+    padding: 1rem .2rem;
+    border-radius: 1rem;
+    color: #ffff;
+    margin: 10px 0;
+}
+.text{
+    color: #ffffff;
+    font-size: 1.25rem;
+    width: 100%;
+    transition: .4s;
+}
+.content{
+    width: 80%;
+}
+.edit{
+    color: #ec4899; 
+    margin-right: 10px;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.edit:hover{
+    opacity: .8 ;
+}
+.delete{
+    color: crimson;
+    margin-right: 10px; 
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.delete:hover{
+    opacity: .8 ;
+}
